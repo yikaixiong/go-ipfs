@@ -175,7 +175,7 @@ jobs:
           command: |
             git clone https://github.com/ipfs/interop.git
             cd interop
-            git checkout petar/namefmt
+            git checkout 4a10690
             cd ..
             git -C interop log -1
       - restore_cache:
